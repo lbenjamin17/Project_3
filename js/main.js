@@ -1,4 +1,3 @@
-var myImage = document.querySelector('img');
-
-myImage.onclick = function() {
-    var mySrc = myImage.getAttribute('src');
+function changePicture() {
+      var myPopup = window.open("", "", "width=200, height=100");
+}
