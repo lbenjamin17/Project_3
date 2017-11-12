@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<script src="main.js"></script>
+		<script src="js/main.js"></script>
 		
 	  </head>
 
@@ -24,11 +24,25 @@
 		</header>
 		 <div class="container">
 
-		<section>
+		<section class="center">
 		 
 		 <h2>Favorite Places to Eat</h2>
 		<div id="map"></div>
+    <div id="iconbase"></div>
+  <script> 
 
+function initMap() {
+  var mapProp= {
+    center:new google.maps.LatLng(17.087635, -61.772346),
+    zoom:12,
+};
+  var map= new google.maps.Map(document.getElementById("map"),mapProp);
+}
+
+
+</script>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwH4uAOXcFNal5_2aJiITiEwwRmAFjJfw&callback=initMap"></script>
 
 		  <p>These places include:</p>
 		  <ul>
