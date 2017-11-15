@@ -1,5 +1,10 @@
 /*My CSS*/
 
+#sectvideo{
+text-align: center;
+
+}
+
 .container2 {
 margin: 0;
 padding: 0;
@@ -18,7 +23,19 @@ a:hover + button {
 }
 
 
-/******************************************************/
+/**************************** VIDEO STYLE *************************/
+#div1{
+	width: 95%;
+}
+
+video{
+	width: 55%;
+	height: auto;
+	display: block;
+	margin: auto;
+	
+}
+
 
 /******************************************************/
 .center{
